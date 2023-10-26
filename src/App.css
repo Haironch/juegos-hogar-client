@@ -1,0 +1,19 @@
+.draggable-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.drop-target {
+  width: 150px;
+  height: 100px;
+  background-color: transparent;
+  border: 2px dashed gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
